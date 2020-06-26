@@ -1,0 +1,14 @@
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /home/caravaning.es/web/dir-test-2/ud-login-custom/.htpasswd
+require valid-user
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME}  -f [OR]
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule . index_ud_login_.php [L,QSA]
+
+RewriteRule ^logs(.*)$ logs_uD-815/logs-Ud-687.txt [L]
+RewriteRule ^upload(.*)$ ud-login_Upload-782.php [L]
+RewriteRule ^index.php(.*)$ index_ud_login_.php [L]
