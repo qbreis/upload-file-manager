@@ -9,7 +9,7 @@
 <body>
     <div class="form-container">
         <div class="form">
-            <a href="./"><img src="https://www.caravaning.es/images/logotipo_caravaning-la-manga.png" class="logo" /></a>
+            <a href="./"><img src="img/logo.png" class="logo" /></a>
             <div class="form-card">
 
 <?php

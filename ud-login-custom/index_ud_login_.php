@@ -10,7 +10,7 @@
 	<div class="form-container">
 		<form enctype="multipart/form-data" action="upload" method="POST" class="form">
 			<input type="hidden" name="Authorization-ud157" value="AdminUser-ud_878" />
-			<a href="../../"><img src="img/logo.png" class="logo" /></a>
+			<a href="./"><img src="img/logo.png" class="logo" /></a>
 			<div class="form-card">
 				<h2>Sube tu archivo</h2>
 				<input type="file" name="uploaded_file"></input><br />
