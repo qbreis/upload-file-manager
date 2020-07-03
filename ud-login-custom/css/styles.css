@@ -44,7 +44,7 @@ body {
 	padding: 20px;
 	overflow: hidden;
 }
-.logo { margin: 20px auto;display: block; }
+.logo { margin: 20px auto;display: block;max-width: 200px; }
 .requirements { font-size: 11px; }
 .dialog {
 	padding: 20px;
